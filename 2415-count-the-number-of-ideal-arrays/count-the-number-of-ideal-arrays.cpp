@@ -1,60 +1,82 @@
-class Solution {
-public: 
-    int mod = pow(10,9)+7;
-    int Comb(int n, int k , vector<vector<int>>&memo)
-    {
-        if(k==0) return 1;
-        if(n==0) return 0;
-        
-        if(memo[n][k] != 0) return memo[n][k];
-        
-        memo[n][k] = Comb(n-1,k,memo) + Comb(n-1, k-1, memo);
-        memo[n][k] %= mod;
-        return memo[n][k];
-    }
-    
-    int idealArrays(int n, int maxValue) {
-        
-        vector<vector<int>>dp(15,vector<int>(maxValue+1,-1));
-        vector<vector<int>>memo(n+1,vector<int>(15,0));
-        
-        long long ans = 0;
-        
-        for(int i =1 ; i<=maxValue ; i++)
-        {
-            ans += helper(n, maxValue, 1, i, dp,memo)%mod;
+const int mod=1e9+7, N=10015;
+bitset<101> sieve=0;
+array<int, 25> prime;
+static constexpr void sieve100(){
+    if (sieve[0]) return;
+    sieve[0]=sieve[1]=1;
+    int sz=0;
+    for(int p=2; p<10; p++){
+        if (!sieve[p]){
+            prime[sz++]=p;
+            for(int j=p*p ; j<100; j+=p)
+                sieve[j]=1;
         }
-        return ans%mod;
     }
-    
-    int helper(int n, int maxValue ,int indx,int val, vector<vector<int>>&dp , vector<vector<int>>&memo)
-    {
+    for(int i=11; i<100; i+=2)
+        if (!sieve[i]) prime[sz++]=i;
+    //cout<<prime.size()<<endl;
+}
 
-        if(indx == n) return 1;
-        
-        long long j =2;
-        
-        if(dp[indx][val] != -1) return dp[indx][val];
-        
-        long long ans = 0;
-        
-        bool flag =0;
-        while(val*j <= maxValue)
-        {
-           ans += helper(n, maxValue, indx+1 , val*j,dp,memo)%mod;
-            j++;
-            
-            if(val*j > maxValue)
-                ans+= Comb(n-1,indx-1,memo)%mod;
-            flag =1;
+int C[N][15]={{0}};
+
+static constexpr void Pascal(){// using Pascal triangle
+    if (C[0][0]==1) return;// once
+    C[0][0]=1;
+    for(int i=1; i<N; i++){
+        C[i][0]=1;
+        int i0=min(14, i);
+        for(int j=1; j<=i0; j++){
+            C[i][j]=C[i-1][j-1]+C[i-1][j];
+            if (C[i][j]>=mod) C[i][j]-=mod;
         }
-        
-        if(flag == 0)
-        {
-            if(val*j > maxValue)
-                ans+= Comb(n-1, indx-1, memo)%mod;
+    }
+}
+
+// prime factorization & count how many ways to build ideal subarray
+// with largest number x
+unsigned dp[N];
+static constexpr long long factor(int x, const int n){
+//    cout<<"\n"<<x<<",";
+    if (dp[x]!=0) return dp[x];
+    if (x<=1) return dp[x]=1;
+    long long cnt=1;
+    if (x<100 && !sieve[x])
+        return dp[x]=n;// C(n, 1) for prime
+
+    int x0=x, x_sqrt=sqrt(x);
+    int pz=0;
+    for(int p: prime){
+    //    cout<<p<<", x0="<<x0<<", ";
+        if (p>x_sqrt) break;
+        if (x0%p!=0) continue;
+        int exp=0;
+        while(x0%p==0){
+        //    cout<<p<<",";
+            exp++;
+            x0/=p;
         }
-        
-        return dp[indx][val] = ans%mod;
+        if (dp[x0]!=0)
+            return dp[x]=C[n-1+exp][exp]*factor(x0, n)%mod;
+        else cnt=(cnt*C[n-1+exp][exp])%mod;
+    } 
+    if (x0>1) {// x0 is a prime>sqrt(x)
+    //    cout<<x0<<" exp="<<1<<endl;
+        cnt=(cnt*n)%mod;
+    } 
+    return dp[x]=cnt;
+}
+
+class Solution {
+public:
+    static int idealArrays(int n, int maxValue) {
+        sieve100();
+        Pascal();
+        long long ans=0;
+        memset(dp, 0, (maxValue+1)*sizeof(unsigned));
+        for (int x=1; x<=maxValue; x++) {
+            const long long ways=factor(x, n);
+            ans=(ans+ways)%mod;
+        }
+        return ans;
     }
 };
