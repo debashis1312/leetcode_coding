@@ -39,6 +39,7 @@
 |  |
 | ------- |
 | [0797-rabbits-in-forest](https://github.com/debashis1312/leetcode_coding/tree/master/0797-rabbits-in-forest) |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/debashis1312/leetcode_coding/tree/master/2415-count-the-number-of-ideal-arrays) |
 ## Greedy
 |  |
 | ------- |
@@ -47,4 +48,16 @@
 |  |
 | ------- |
 | [2249-count-the-hidden-sequences](https://github.com/debashis1312/leetcode_coding/tree/master/2249-count-the-hidden-sequences) |
+## Dynamic Programming
+|  |
+| ------- |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/debashis1312/leetcode_coding/tree/master/2415-count-the-number-of-ideal-arrays) |
+## Combinatorics
+|  |
+| ------- |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/debashis1312/leetcode_coding/tree/master/2415-count-the-number-of-ideal-arrays) |
+## Number Theory
+|  |
+| ------- |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/debashis1312/leetcode_coding/tree/master/2415-count-the-number-of-ideal-arrays) |
 <!---LeetCode Topics End-->
