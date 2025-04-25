@@ -11,6 +11,7 @@
 | [2626-count-the-number-of-good-subarrays](https://github.com/debashis1312/leetcode_coding/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/debashis1312/leetcode_coding/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/debashis1312/leetcode_coding/tree/master/2856-count-complete-subarrays-in-an-array) |
+| [2915-count-of-interesting-subarrays](https://github.com/debashis1312/leetcode_coding/tree/master/2915-count-of-interesting-subarrays) |
 ## Hash Table
 |  |
 | ------- |
@@ -18,6 +19,7 @@
 | [1500-count-largest-group](https://github.com/debashis1312/leetcode_coding/tree/master/1500-count-largest-group) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/debashis1312/leetcode_coding/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/debashis1312/leetcode_coding/tree/master/2856-count-complete-subarrays-in-an-array) |
+| [2915-count-of-interesting-subarrays](https://github.com/debashis1312/leetcode_coding/tree/master/2915-count-of-interesting-subarrays) |
 ## Sliding Window
 |  |
 | ------- |
@@ -53,6 +55,7 @@
 |  |
 | ------- |
 | [2249-count-the-hidden-sequences](https://github.com/debashis1312/leetcode_coding/tree/master/2249-count-the-hidden-sequences) |
+| [2915-count-of-interesting-subarrays](https://github.com/debashis1312/leetcode_coding/tree/master/2915-count-of-interesting-subarrays) |
 ## Dynamic Programming
 |  |
 | ------- |
