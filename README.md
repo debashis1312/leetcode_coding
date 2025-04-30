@@ -7,6 +7,7 @@
 |  |
 | ------- |
 | [0797-rabbits-in-forest](https://github.com/debashis1312/leetcode_coding/tree/master/0797-rabbits-in-forest) |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/debashis1312/leetcode_coding/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [2249-count-the-hidden-sequences](https://github.com/debashis1312/leetcode_coding/tree/master/2249-count-the-hidden-sequences) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/debashis1312/leetcode_coding/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/debashis1312/leetcode_coding/tree/master/2626-count-the-number-of-good-subarrays) |
@@ -50,6 +51,7 @@
 |  |
 | ------- |
 | [0797-rabbits-in-forest](https://github.com/debashis1312/leetcode_coding/tree/master/0797-rabbits-in-forest) |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/debashis1312/leetcode_coding/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1500-count-largest-group](https://github.com/debashis1312/leetcode_coding/tree/master/1500-count-largest-group) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/debashis1312/leetcode_coding/tree/master/2415-count-the-number-of-ideal-arrays) |
 ## Greedy
