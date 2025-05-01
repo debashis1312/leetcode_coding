@@ -8,6 +8,7 @@
 | ------- |
 | [0797-rabbits-in-forest](https://github.com/debashis1312/leetcode_coding/tree/master/0797-rabbits-in-forest) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/debashis1312/leetcode_coding/tree/master/1421-find-numbers-with-even-number-of-digits) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/debashis1312/leetcode_coding/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2249-count-the-hidden-sequences](https://github.com/debashis1312/leetcode_coding/tree/master/2249-count-the-hidden-sequences) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/debashis1312/leetcode_coding/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/debashis1312/leetcode_coding/tree/master/2626-count-the-number-of-good-subarrays) |
@@ -42,10 +43,12 @@
 ## Binary Search
 |  |
 | ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/debashis1312/leetcode_coding/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/debashis1312/leetcode_coding/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Sorting
 |  |
 | ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/debashis1312/leetcode_coding/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/debashis1312/leetcode_coding/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Math
 |  |
@@ -58,6 +61,7 @@
 |  |
 | ------- |
 | [0797-rabbits-in-forest](https://github.com/debashis1312/leetcode_coding/tree/master/0797-rabbits-in-forest) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/debashis1312/leetcode_coding/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -78,9 +82,11 @@
 ## Queue
 |  |
 | ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/debashis1312/leetcode_coding/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/debashis1312/leetcode_coding/tree/master/2527-count-subarrays-with-fixed-bounds) |
 ## Monotonic Queue
 |  |
 | ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/debashis1312/leetcode_coding/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/debashis1312/leetcode_coding/tree/master/2527-count-subarrays-with-fixed-bounds) |
 <!---LeetCode Topics End-->
