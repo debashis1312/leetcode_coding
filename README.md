@@ -36,9 +36,11 @@
 |  |
 | ------- |
 | [0038-count-and-say](https://github.com/debashis1312/leetcode_coding/tree/master/0038-count-and-say) |
+| [0868-push-dominoes](https://github.com/debashis1312/leetcode_coding/tree/master/0868-push-dominoes) |
 ## Two Pointers
 |  |
 | ------- |
+| [0868-push-dominoes](https://github.com/debashis1312/leetcode_coding/tree/master/0868-push-dominoes) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/debashis1312/leetcode_coding/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Binary Search
 |  |
@@ -70,6 +72,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0868-push-dominoes](https://github.com/debashis1312/leetcode_coding/tree/master/0868-push-dominoes) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/debashis1312/leetcode_coding/tree/master/2415-count-the-number-of-ideal-arrays) |
 ## Combinatorics
 |  |
