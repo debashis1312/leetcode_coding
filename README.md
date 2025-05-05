@@ -76,6 +76,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0806-domino-and-tromino-tiling](https://github.com/debashis1312/leetcode_coding/tree/master/0806-domino-and-tromino-tiling) |
 | [0868-push-dominoes](https://github.com/debashis1312/leetcode_coding/tree/master/0868-push-dominoes) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/debashis1312/leetcode_coding/tree/master/2415-count-the-number-of-ideal-arrays) |
 ## Combinatorics
