@@ -6,6 +6,7 @@
 ## Array
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/debashis1312/leetcode_coding/tree/master/0075-sort-colors) |
 | [0797-rabbits-in-forest](https://github.com/debashis1312/leetcode_coding/tree/master/0797-rabbits-in-forest) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/debashis1312/leetcode_coding/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/debashis1312/leetcode_coding/tree/master/1227-number-of-equivalent-domino-pairs) |
@@ -59,6 +60,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/debashis1312/leetcode_coding/tree/master/0075-sort-colors) |
 | [0868-push-dominoes](https://github.com/debashis1312/leetcode_coding/tree/master/0868-push-dominoes) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/debashis1312/leetcode_coding/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Binary Search
@@ -69,6 +71,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/debashis1312/leetcode_coding/tree/master/0075-sort-colors) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/debashis1312/leetcode_coding/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2215-finding-3-digit-even-numbers](https://github.com/debashis1312/leetcode_coding/tree/master/2215-finding-3-digit-even-numbers) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/debashis1312/leetcode_coding/tree/master/2699-count-the-number-of-fair-pairs) |
